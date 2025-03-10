@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-10T11:07:10.274Z",
+    "end": "2025-03-10T11:07:10.277Z",
+    "duration": 3
+  },
+  "tests": [
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 3 == false\n    at Context.<anonymous> (test/test.js:15:20)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "3 == false",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": 3,
+        "expected": false,
+        "operator": "=="
+      }
+    },
+    {
+      "title": "should return false",
+      "fullTitle": "Addition Number + String should return false",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return false",
+      "fullTitle": "Addition String + Number should return false",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Negative Number + Negative Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Not a Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Floating Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: 3 == false\n    at Context.<anonymous> (test/test.js:15:20)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "3 == false",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": 3,
+        "expected": false,
+        "operator": "=="
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return false",
+      "fullTitle": "Addition Number + String should return false",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return false",
+      "fullTitle": "Addition String + Number should return false",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Negative Number + Negative Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Not a Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return a number",
+      "fullTitle": "Addition Floating Number + Number should return a number",
+      "file": "/Users/jtaupin/Developpement/Andragogy/Formateur/LiveCampus/Intervention/envdetest/mochatest/test/test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
